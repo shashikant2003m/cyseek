@@ -9,17 +9,6 @@ A Python-based network vulnerability assessment tool that automates Nmap scannin
 - **Multi-Format Reports** — Outputs TXT (human-readable), JSON (machine-readable), and HTML (visual) reports
 - **Demo Mode** — Run without Nmap installed to test the report pipeline
 
-## Project Structure
-
-```
-vuln_scanner/
-├── scanner.py                  # Main entry point
-├── modules/
-│   ├── vulnerability_analyzer.py  # Vulnerability detection logic
-│   └── report_generator.py        # TXT / JSON / HTML report generation
-├── reports/                    # Output directory (auto-created)
-└── README.md
-```
 
 ## Requirements
 
